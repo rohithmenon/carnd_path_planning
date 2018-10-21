@@ -12,3 +12,7 @@ cd ..
 cd ..
 sudo ln -s /usr/lib64/libuWS.so /usr/lib/libuWS.so
 sudo rm -r uWebSockets
+
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt update
+sudo apt install g++-7 -y
