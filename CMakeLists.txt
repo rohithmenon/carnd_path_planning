@@ -4,6 +4,7 @@ cmake_minimum_required (VERSION 3.5)
 
 add_definitions(-std=c++17)
 
+set(CXX "/usr/bin/g++-7")
 set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
